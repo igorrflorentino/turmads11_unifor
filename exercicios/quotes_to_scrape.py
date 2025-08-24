@@ -11,7 +11,6 @@ soup = BeautifulSoup(HTML.text, "lxml")
 # Exercicio 1
 print(f"Título da página: {soup.find_all('h1')[0].text.strip()}\n")
 
-
 # Exercicio 2
 print(f"Primeira citação: {soup.find_all('span', class_='text')[0].text.strip()}\n")
 
